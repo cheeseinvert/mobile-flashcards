@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, StatusBar } from "react-native";
+import { Text, View, StatusBar } from "react-native";
 import { TabNavigator, StackNavigator } from "react-navigation";
 import DeckList from "./components/DeckList";
 import DeckEntry from "./components/DeckEntry";
@@ -83,12 +83,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: white,
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
